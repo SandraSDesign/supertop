@@ -1,0 +1,1735 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Super Top - Seu Supermercado</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+
+		<nav class="navbar">
+			<div class="container">
+				<a href="#supertop" class="logo">Super Top</a>
+				<img src="./imgs/supertoplogo.png" alt="logosupertop">
+				<form class="search-form">
+					<input type="text" placeholder="Pesquisar...">
+					<button type="submit"><img src="./imgs/lupa.png" alt="Lupa-Pesquisar"></button>
+				</form>
+				<ul class="nav-links">
+					<li><a href="#">Cadastro</a></li>
+					<li><a href="#">Login</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="content">
+			<!-- Conteúdo da sua página aqui -->
+		</div>
+		<h1>Super Top</h1>
+		
+
+		<section>
+			<div class="slogan">
+				<h1><a href="#slogan-section">Qualidade, variedade e economia - Somos o
+						Supermercado Top ! </a></h1>
+				<h1><img src="./imgs/carrinho-de-supermercado 1.png"
+						alt="carrinho de compras"></h1>
+				<p><h2>Há mais de uma década, o Supermercado Top tem sido um ponto de
+						referência para qualidade, variedade e preços justos em produtos
+						alimentícios e itens do lar. Desde a nossa inauguração, temos nos
+						comprometido em fornecer uma ampla gama de produtos de alta qualidade,
+						atendendo às necessidades e preferências variadas de nossos clientes. A
+						satisfação do cliente é a nossa prioridade principal, e cada membro da
+						nossa equipe trabalha incansavelmente para garantir uma experiência de
+						compra excepcional. Ao longo dos anos, construímos uma forte relação de
+						confiança com nossa comunidade, e continuamos dedicados a superar as
+						expectativas dos nossos clientes em todos os aspectos. O Supermercado Top
+						é mais do que um lugar para comprar; é um destino onde a qualidade, o
+						serviço e a satisfação do cliente se encontram.</h2></p>
+			</div>
+		</section>
+
+		<nav>
+			<ul>
+				<a href="#destaques">Ir para Destaques</a>
+				<a href="#ProdutosemPromoção">Ir para Produtos em Promoção</a>
+				<a href="#alimentos-secos">Ir para Alimentos Secos</a>
+				<a href="#Gulosemas">Ir para Gulosemas</a><br>
+				<a href="#Frutas">Ir para Frutas</a>
+				<a href="#VerduraseLegumes">Ir para Verduras e Legumes</a>
+				<a href="#Bebidas">Ir para Bebidas</a>
+				<a href="#padaria">Ir para Padaria</a>
+				<a href="#limpeza">Ir para Produtos de Limpeza</a><br>
+                <a href="#pet">Ir para Produtos para Seu Pet</a>
+
+
+			</ul>
+		</nav>
+
+		<section>
+			<div class="Carrinho">
+				<nav class="menu-carrinho">
+					<ul>
+						<li><a href="pagina_destino.html#Carrinho">Carrinho</a></li>
+						<li><a href="pagina_destino.html#Contato">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</section>
+		
+
+		<section id="destaques">
+			<h2>Produtos em Destaque</h2>
+			<div class="produto">
+				<img src="./imgs/papelhigienicotop.jpeg" alt="Papel-higiênico Euddora">
+				<h3>Papel-higiênico Euddora</h3>
+				<p>Papel-higiênico folha dupla, macio e suave</p>
+				<p>Preço: R$ X,XX</p>
+				<h3>QUANTIDADE</h3>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1">
+				<button onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+			</div>
+
+			<div class="produto">
+				<img src="./imgs/saboneteoyquidea.jpeg" alt="Sabonete Orquidea">
+				<h3>Sabonete <br>Orquidea</h3>
+				<p>sabonete hidratante suave para sua pele sensível</p>
+				<p>Preço: R$ X,XX</p>
+				<h3>QUANTIDADE</h3>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1">
+				<button onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+			</div>
+
+			<div class="produto">
+				<img src="./imgs/pastadentalmild.jpeg" alt="Pasta dental Mild">
+				<h3>Pasta dental<br> Mild</h3>
+				<p>Seus dentes mais brancos e protegidos</p>
+				<p>Preço: R$ X,XX</p>
+				<h3>QUANTIDADE</h3>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1">
+				<button onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+			</div>
+
+			<div class="produto">
+				<img src="./imgs/shampoo.jpeg" alt="Shampoo">
+				<h3>Shampoo para todos os tipos de cabelos</h3>
+				<p>Limpeza Profunda da Raiz as Pontas</p>
+				<p>Preço: R$ X,XX</p>
+				<h3>QUANTIDADE</h3>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1">
+				<button onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+			</div>
+
+			<div class="produto">
+				<img src="./imgs/cremedebarbiar.jpeg" alt="Imagem do produto esgotado">
+				<div class="ESGOTADO">Produto Esgotado</div>
+				<h3>Creme de Barbear</h3>
+				<p>Para homens decididos e bem sucedidos
+				</p>
+				<p>Preço: R$ X,XX</p>
+				<h3>QUANTIDADE</h3>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1">
+				<button onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+			</div>
+
+			<div class="produto">
+				<img src="./imgs/chocolatediet.jpeg" alt="Chocolate Diet">
+				<h3>Chocolate Diet</h3>
+				<p>Para você que não fica sem um chocolate e tem limitações com glicose.
+					este chocolate vai adoçar sua vida com saúde e bem-estar</p>
+				<p>Preço: R$ X,XX</p>
+				<h3>QUANTIDADE</h3>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1">
+				<button onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+			</div>
+
+			<div class="produto">
+				<img src="./imgs/pãointegral.jpeg" alt="Pão Integral">
+				<h3>Pão <br>Integral</h3>
+				<p>Pão Integral caseiro, delicioso super macio
+					Saúde e Sabor em sua mesa
+					Expremente esta delicia
+				</p>
+				<p>Preço: R$ X,XX</p>
+				<h3>QUANTIDADE</h3>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1">
+				<button onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+			</div>
+
+			<div class="produto">
+				<img src="./imgs/pãofrances.jpeg" alt="Pão Francês">
+				<h3>Pão Francês </h3>
+				<p>Casquinha crocante e macio por dentro,
+					uma irresistivel sensação de quero mais,
+					com um de nossos recheios salgado ou doce
+					Expremente ! </p>
+				<p>Preço: R$ X,XX</p>
+				<h3>QUANTIDADE</h3>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1">
+				<button onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+			</div>
+
+			<div class="produto">
+				<img src="./imgs/tortadenozes.jpeg" alt="Torta de Nozes">
+				<h3>Torta de <br>Nozes</h3>
+				<p>Para paladares refinados expremente nossa deliciosa torta de nozes com
+					canela ou sem.
+					Esta semana Irresistível Promoção
+				</p>
+				<p>Preço: R$ X,XX</p>
+				<h3>QUANTIDADE</h3>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1">
+				<button onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+			</div>
+
+			<div class="produto">
+				<img src="./imgs/arroz.jpeg" alt="Arroz">
+				<h3>Arroz <br>Rice</h3>
+				<p>Nutrição e sabor em sua mesa.ARROZ Rice, sabor e qualidade para sua
+					família
+					Aprovete preço especial, até terminar o estoque
+				</p>
+				<p>Preço: R$ X,XX</p>
+				<h3>QUANTIDADE</h3>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1">
+				<button onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+			</div>
+
+			<div class="produto">
+				<img src="./imgs/napoleaofeijão.jpeg" alt="Feijão Napoleão">
+				<h3>Feijão Napoleão</h3>
+				<p>Caldinho grosso e saboroso, econômico e nutritivo;
+					mais saúde e sabor em sua mesa.
+					A marca que conquistou seu paladar
+				</p>
+				<p>Preço: R$ X,XX</p>
+				<h3>QUANTIDADE</h3>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1">
+				<button onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+			</div>
+
+			<div class="produto">
+				<img src="./imgs/paneladearroz.jpeg" alt="Panela de Arroz">
+				<h3>Panela de<br> Arroz</h3>
+				<p>Econômica e super prática, arroz soltinho ou <br>papinha só programarr
+					que seu arroz estará do jeitinho que você ama
+				</p>
+				<p>Preço: R$ X,XX</p>
+				<h3>QUANTIDADE</h3>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1">
+				<button onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+			</div>
+
+			<div class="produto">
+				<img src="./imgs/macarrãofrifri.jpeg" alt="Imagem do produto esgotado">
+				<div class="ESGOTADO">Produto Esgotado</div>
+				<h3>Macarrão FriFri</h3>
+				<p>Delicioso macarrão feito com legumes e ingredientes naturais,
+					Seu paladar vai se apaixonar e seu bolso agradecer
+				</p>
+				<p>Preço: R$ X,XX</p>
+				<h3>QUANTIDADE</h3>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1">
+				<button onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+			</div>
+
+			<div class="produto">
+				<img src="./imgs/conjuntodepratos.jpeg" alt="Conjunto de Pratos">
+				<h3>Conjunto <br>de<br> Pratos</h3>
+				<p>Pratos de alta qualidade resistentes e praticos na lavagem, vão ao
+					micro-ondas e ao forno</p>
+				<p>Preço: R$ X,XX</p>
+				<h3>QUANTIDADE</h3>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1">
+				<button onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+			</div>
+
+			<div class="produto">
+				<img src="./imgs/conjuntodetalheres.jpeg" alt="Conjunto de Talheres">
+				<h3>Conjunto <br>de<br> Talheres Inox</h3>
+				<p>Talheres de inox, sofistificação e bom gosto na sua mesa
+					Temos poucas unidades disponíveis
+				</p>
+				<p>Preço: R$ X,XX</p>
+				<h3>QUANTIDADE</h3>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1">
+				<button onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+			</div>
+		</section>
+
+		<section id="ProdutosemPromoção">
+			<h2>Produtos em Promoção</h2>
+			<div class="produto">
+				<img src="./imgs/shampoo.jpeg" alt="Shampoo">
+				<h3>Shampoo para todos os tipos de cabelos</h3>
+				<p>Limpeza Profunda da Raiz as Pontas,<br>seu cabelos brilhantes,saudaveis e perfumados por mais tempo</p>
+				<p>Preço: R$ X,XX</p>
+				<h3>QUANTIDADE</h3>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1">
+				<button onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+			</div>
+
+		<div class="produto">
+			<img src="./imgs/tortadenozes.jpeg" alt="Torta de Nozes">
+			<h3>Torta de <br>Nozes</h3>
+			<p>Para paladares refinados expremente nossa deliciosa torta de nozes com
+				canela ou sem.
+				Esta semana Irresistível Promoção
+			</p>
+			<p>Preço: R$ X,XX</p>
+			<h3>QUANTIDADE</h3>
+			<input type="number" id="quantidade" name="quantidade" min="1" value="1">
+			<button onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/arroz.jpeg" alt="Arroz">
+			<h3>Arroz <br>Rice</h3>
+			<p>Nutrição e sabor em sua mesa.ARROZ Rice, sabor e qualidade para sua
+				família
+				Aprovete preço especial, até terminar o estoque
+			</p>
+			<p>Preço: R$ X,XX</p>
+			<h3>QUANTIDADE</h3>
+			<input type="number" id="quantidade" name="quantidade" min="1" value="1">
+			<button onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/paneladearroz.jpeg" alt="Panela de Arroz">
+			<h3>Panela de<br> Arroz</h3>
+			<p>Econômica e super prática, arroz soltinho ou <br>papinha só programarr que
+				seu arroz estará do jeitinho que você ama
+			</p>
+			<p>Preço: R$ X,XX</p>
+			<h3>QUANTIDADE</h3>
+			<input type="number" id="quantidade" name="quantidade" min="1" value="1">
+			<button onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/pãofrances.jpeg" alt="Pão Francês">
+			<h3>Pão Francês </h3>
+			<p>Casquinha crocante e macio por dentro,
+				uma irresistivel sensação de quero mais,
+				com um de nossos recheios salgado ou doce
+				Expremente ! </p>
+			<p>Preço: R$ X,XX</p>
+			<h3>QUANTIDADE</h3>
+			<input type="number" id="quantidade" name="quantidade" min="1" value="1">
+			<button onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/chocolatediet.jpeg" alt="Chocolate Diet">
+			<h3>Chocolate Diet</h3>
+			<p>Para você que não fica sem um chocolate e tem limitações com glicose. este
+				chocolate vai adoçar sua vida com saúde e bem-estar</p>
+			<p>Preço: R$ X,XX</p>
+			<h3>QUANTIDADE</h3>
+			<input type="number" id="quantidade" name="quantidade" min="1" value="1">
+			<button onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/cremedebarbiar.jpeg" alt="Imagem do produto esgotado">
+			<div class="ESGOTADO">Produto Esgotado</div>
+			<h3>Creme de Barbear</h3>
+			<p>Para homens decididos e bem sucedidos
+			</p>
+			<p>Preço: R$ X,XX</p>
+			<h3>QUANTIDADE</h3>
+			<input type="number" id="quantidade" name="quantidade" min="1" value="1">
+			<button onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/conjuntodepratos.jpeg" alt="Conjunto de Pratos">
+			<h3>Conjunto <br>de<br> Pratos</h3>
+			<p>Pratos de alta qualidade resistentes e praticos na lavagem, vão ao
+				micro-ondas e ao forno</p>
+			<p>Preço: R$ X,XX</p>
+			<h3>QUANTIDADE</h3>
+			<input type="number" id="quantidade" name="quantidade" min="1" value="1">
+			<button onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/napoleaofeijão.jpeg" alt="Feijão Napoleão">
+			<h3>Feijão Napoleão</h3>
+			<p>Caldinho grosso e saboroso, econômico e nutritivo;
+				mais saúde e sabor em sua mesa.
+				A marca que conquistou seu paladar
+			</p>
+			<p>Preço: R$ X,XX</p>
+			<h3>QUANTIDADE</h3>
+			<input type="number" id="quantidade" name="quantidade" min="1" value="1">
+			<button onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/shampoo.jpeg" alt="Shampoo">
+			<h3>Shampoo para todos os tipos de cabelos</h3>
+			<p>Limpeza Profunda da Raiz as Pontas,<br>seu cabelos brilhantes,saudaveis e
+				perfumados por mais tempo
+			</p>
+			<p>Preço: R$ X,XX</p>
+			<h3>QUANTIDADE</h3>
+			<input type="number" id="quantidade" name="quantidade" min="1" value="1">
+			<button onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+		</div>
+	</section>
+
+	<section id="ProdutosdeHigiene">
+		<h5>Produtos de Higiene</h5>
+		<div class="container">
+			<div class="produto">
+				<img src="./imgs/papelhigienicotop.jpeg" alt="Papel Higienico">
+				<h3>Papel Higienico</h3>
+				<p>Dupla Face e <br>Econômico</p>
+				<p>Preço: R$ X,XX</p>
+				<h3>QUANTIDADE</h3>
+				<div>
+					<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+						style="width: 100px;">
+					<br>
+					<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+						ao Carrinho</button>
+				</div>
+
+			</div>
+
+			<div class="produto">
+				<img src="./imgs/saboneteoyquidea.jpeg" alt="Sabonete Orquídea">
+				<h3>Sabonete Orquídea</h3>
+				<p>Perfume que vai além do<br> seu banho</p>
+				<p>R$ X,xx</p>
+				<h3>QUANTIDADE</h3>
+				<div>
+					<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+						style="width: 100px;">
+					<br>
+					<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+						ao Carrinho</button>
+				</div>
+
+			</div>
+
+			<div class="produto">
+				<img src="./imgs/cremedental.jpeg" alt="Pasta de dente">
+				<h3>Creme Dental</h3>
+				<p>dentes brancos e protegidos<br> por mais tempo</p>
+				<p>R$ x,xx</p>
+				<h3>QUANTIDADE</h3>
+				<div>
+					<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+						style="width: 100px;">
+					<br>
+					<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+						ao Carrinho</button>
+				</div>
+
+			</div>
+
+			<div class="produto">
+				<img src="./imgs/shampoo.jpeg" alt="Shampoo">
+				<h3>Shampoo</h3>
+				<p>Limpeza Profunda<br> da Raiz até as Pontas.<br>
+				</p>
+				<p>R$ x,xx</p>
+				<h3>QUANTIDADE</h3>
+				<div>
+					<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+						style="width: 100px;">
+					<br>
+					<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+						ao Carrinho</button>
+				</div>
+
+			</div>
+
+			<div class="produto">
+				<img src="./imgs/desodorante.jpeg" alt="desodorante">
+				<h3>Desodorante</h3>
+				<p>Para você que tem <br>uma vida agitada e não para um minuto,expremente o
+					desodorante 24 hora e sinta o seu dia mais leve</p>
+				<p>R$ x,xxx</p>
+				<h3>QUANTIDADE</h3>
+				<div>
+					<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+						style="width: 100px;">
+					<br>
+					<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+						ao Carrinho</button>
+				</div>
+
+			</div>
+
+			<div class="produto">
+				<img src="./imgs/HIDRATANTECORPORAL.jpeg" alt="Hidratante Corporal">
+				<h3>Hidratante Corporal</h3>
+				<p>Para uma pele mais suave e macia. <br>Com delicioso Perfume</p>
+				<p>R$ x,xx</p>
+				<h3>QUANTIDADE</h3>
+				<div>
+					<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+						style="width: 100px;">
+					<br>
+					<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+						ao Carrinho</button>
+				</div>
+
+			</div>
+
+			<div class="produto">
+				<img src="./imgs/hidratanteparaoscabelos.jpeg"
+					alt="Hidratante para os cabelos">
+				<h3>Hidratante cabelos</h3>
+				<p>Cabelos macios e <br>brilhantes por mais tempo
+				</p>
+				<p>R$ x,xx</p><h3>QUANTIDADE</h3>
+				<div>
+					<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+						style="width: 100px;">
+					<br>
+					<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+						ao Carrinho</button>
+				</div>
+
+			</div>
+
+			<div class="produto">
+				<img src="./imgs/escovadecabelos.jpeg" alt="Escova de cabelos">
+				<h3>Escova de Cabelos</h3>
+				<p>Escova profissional,<br> alta durabilidade</p>
+				<p>R$ x,xx</p>
+				<h3>QUANTIDADE</h3>
+				<div>
+					<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+						style="width: 100px;">
+					<br>
+					<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+						ao Carrinho</button>
+				</div>
+
+			</div>
+
+			<div class="produto">
+				<img src="./imgs/pósbarba.jpeg" alt="pósbarba">
+				<h3>Pós Barba</h3>
+				<p>Para homens de estilo<br>
+					o prazer de se sentir bem<br>
+				</p>
+				<p>R$ x,xx</p>
+				<h3>QUANTIDADE</h3>
+				<div>
+					<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+						style="width: 100px;">
+					<br>
+					<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+						ao Carrinho</button>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+</section>
+
+<section id="Gulosemas">
+	<h5>Gulosemas</h5>
+	<div class="container">
+		<div class="produto">
+			<img src="./imgs/docessortidos.jpeg" alt="docessortidos">
+			<h3>Doces Sortidos</h3>
+			<p>Doçura e Qualidade<br> em sua vida</p>
+			<p>R$ x,xx</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/biscoitosamantegados.jpeg" alt="biscoitosamantegados">
+			<h3>Biscoitos Amantegados</h3>
+			<p>Biscoitos amantegados,<br> derretem na boca</p>
+			<p>R$ x,xx</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/biscoitorecheado.jpeg" alt="biscoitorecheado">
+			<h3>Biscoitos Recheado</h3>
+			Uma explossão de sabor <br>para o seu paradar
+			<p>R$ x,xx</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/balasdegoma.jpeg" alt="balasdegoma">
+			<h3>Bala de Goma</h3>
+			<p>Bala de Goma com irresistivel<br> sabor das frutas</p>
+			<p>R$ x,xx</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/pirulito.jpeg" alt="pirulito">
+			<h3>Pirulito</h3>
+			<p>O Doce sabor <br>da infância</p>
+			<p>R$ x,xx</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/sorvete.jpeg" alt="sorvete">
+			<h3>Sorvete</h3>
+			Pata refrescar seu verão sorvete <br>com gostinho de quero mais
+			<p>R$ x,xx</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/rapadura.jpeg" alt="rapadura">
+			<h3>Rapadura de Amendoim</h3>
+			<p>Rapadura o doce sabor natural<br> da colônia em sua mesa</p>
+			<p>R$ x,xx</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/cocada.jpeg" alt="cocada">
+			<h3>Cocada</h3>
+			<p>Cada mordida <br>uma nova viagem</p>
+			<p>R$ x,xx</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/algodãodoce.jpeg" alt="algodãodoce">
+			<h3>Algodão Doce</h3>
+			<p>A espuminha colorida que adoça <br> a vida das crianças e dos adultos</p>
+			<p>R$ x,xx</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+	</section>
+
+</section>
+
+<section id="Frutas">
+	<h5>Frutas</h5>
+	<div class="container">
+		<div class="produto">
+			<img src="./imgs/banana.jpeg" alt="banana">
+			<h3>Banana</h3>
+			<p>Saúde e bem estar,<br> a sua saúde agradece</p>
+			<p>R$ x,xx / kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/maça.jpeg" alt="maça">
+			<h3>Maça</h3>
+			<p> Possui potássio, fibras, além de compostos<br> antioxidantes na sua
+				composição. </p>
+			<p>R$ x,xx/ kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/PERA.jpeg" alt="Pera">
+			<h3>Pêra</h3>
+			<p> A pêra é uma excelente<br> fonte de fibras</p>
+			<p>R$ x,xx / kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/uvas.jpeg" alt="Uvas">
+			<h3>Uvas</h3>
+			<p>Vitamina E, vitamina C, vitamina K e vitamina A,<br> minerais cálcio,
+				ferro e potássio.</p>
+			<p>R$ x,xx / kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/Melancia.jpeg" alt="Melancia">
+			<h3>Melância</h3>
+			<p>Melhora e preveni <br>a retenção de líquidos. </p>
+			<p>R$ x,xx / kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/Melão.jpeg" alt="Melão">
+			<h3>Melão</h3>
+			<p> É rico em nutrientes como cálcio,<br> potássio e fibras</p>
+			<p>R$ x,xx/ kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/Manga.jpeg" alt="Manga">
+			<h3>Manga</h3>
+			<p>Retarda o envelhecimento da <br>pele comvitamina A e C"</p>
+			<p>R$ x,xx / kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/Abacate.jpeg" alt="Abacate">
+			<h3>Abacate</h3>
+			<p>Prevenção da depressão,<br> demência e Alzheimer.</p>
+			<p>R$ x,xx / kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/Laranja.jpeg" alt="Laranja">
+			<h3>Laranja</h3>
+			<p>Rica em fibras protege do câncer,<br> diabetes,hipertensão .</p>
+			<p>R$ x,xx/ kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<section id="VerduraseLegumes">
+    <h5>Verduras e Legumes</h5>
+    <div class="container">
+        <div class="produto">
+            <img src="./imgs/Alface.jpeg" alt="Alface">
+            <h3>Alface</h3>
+            <p>Ajuda a saciar a fome,<br> alta quantidade de fibras</p>
+            <p>R$ x,xx/ unidade</p>
+            <h3>QUANTIDADE</h3>
+            <div>
+                <input type="number" id="quantidadeAlface" name="quantidadeAlface" min="1" value="1"
+                    style="width: 100px;">
+                <br>
+                <button onclick="adicionarAoCarrinhoAlface()" style="font-size: 10px;">Adicionar
+                    ao Carrinho</button>
+            </div>
+        </div>
+
+		<div class="produto">
+			<img src="./imgs/Cenoura.jpeg" alt="Cenoura">
+			<h3>Cenoura</h3>
+			<p>Rica em fibras protege do câncer,<br> diabetes,hipertensão .</p>
+			<p>R$ x,xx/ kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/beterraba.jpeg" alt="Beterraba">
+			<h3>Beterraba</h3>
+			<p>Rica em fibras protege do câncer,<br> diabetes,hipertensão .</p>
+			<p>R$ x,xx/ kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/beringela.jpeg" alt="Bringela">
+			<h3>Beringela</h3>
+			<p>Rica em fibras protege do câncer,<br> diabetes,hipertensão .</p>
+			<p>R$ x,xx/ kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/salsinha.jpeg" alt="Salsinha">
+			<h3>Salsinha</h3>
+			<p>Rica em fibras protege do câncer,<br> diabetes,hipertensão .</p>
+			<p>R$ x,xx/ kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/espinafre.jpeg" alt="Espinafre">
+			<h3>Espinafre</h3>
+			<p>Rica em fibras protege do câncer,<br> diabetes,hipertensão .</p>
+			<p>R$ x,xx/ kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/Pepino.jpeg" alt="Pepino">
+			<h3>Pepino</h3>
+			<p>Rica em fibras protege do câncer,<br> diabetes,hipertensão .</p>
+			<p>R$ x,xx/ kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/REPOLHO.jpeg" alt="Repolho">
+			<h3>Repolho</h3>
+			<p>Rica em fibras protege do câncer,<br> diabetes,hipertensão .</p>
+			<p>R$ x,xx/ kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/tomates.jpeg" alt="Tomates">
+			<h3>Tomates</h3>
+			<p>Rica em fibras protege do câncer,<br> diabetes,hipertensão .</p>
+			<p>R$ x,xx/ kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/Batata.jpeg" alt="Batata">
+			<h3>Batata</h3>
+			<p>Rica em fibras protege do câncer,<br> diabetes,hipertensão .</p>
+			<p>R$ x,xx/ kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+        
+
+    </div>
+</section>
+
+<section id="Bebidas" class="lista-horizontal">
+    <h5>Bebidas</h5>
+    <div class="container">
+        <div class="produto">
+            <img src="./imgs/refrigerante.jpeg" alt="Refrigerante">
+            <h3>Refrigerante</h3>
+            <p>Guaraná com sabor original</p>
+            <p>R$ x,xx</p>
+            <h3>QUANTIDADE</h3>
+            <div>
+                <input type="number" id="quantidadeRefrigerante" name="quantidadeRefrigerante" min="1" value="1"
+                    style="width: 100px;">
+                <br>
+                <button onclick="adicionarAoCarrinhoRefrigerante()" style="font-size: 10px;">Adicionar
+                    ao Carrinho</button>
+            </div>
+        </div>
+
+
+		<div class="produto">
+			<img src="./imgs/AGUAMINERAL.jpeg" alt="Água Mineral">
+			<h3>água Mineral</h3>
+			<p>Rica em fibras protege do câncer,<br> diabetes,hipertensão .</p>
+			<p>R$ x,xx/ kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/aguasaborizada.jpeg" alt="Água Saborizada">
+			<h3>Água Saborizada</h3>
+			<p>Rica em fibras protege do câncer,<br> diabetes,hipertensão .</p>
+			<p>R$ x,xx/ kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/cerveja.jpeg" alt="Cerveja">
+			<h3>Cerveja</h3>
+			<p>Rica em fibras protege do câncer,<br> diabetes,hipertensão .</p>
+			<p>R$ x,xx/ kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/SUCO.jpeg" alt="Suco">
+			<h3>Suco</h3>
+			<p>Rica em fibras protege do câncer,<br> diabetes,hipertensão .</p>
+			<p>R$ x,xx/ kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/vinho.jpeg" alt="Vinho">
+			<h3>Vinho</h3>
+			<p>Rica em fibras protege do câncer,<br> diabetes,hipertensão .</p>
+			<p>R$ x,xx/ kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/Licor.jpeg" alt="Licor">
+			<h3>Licor</h3>
+			<p>Rica em fibras protege do câncer,<br> diabetes,hipertensão .</p>
+			<p>R$ x,xx/p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/Champanhe.jpeg" alt="Champanhe">
+			<h3>Champanhe</h3>
+			<p>Rica em fibras protege do câncer,<br> diabetes,hipertensão .</p>
+			<p>R$ x,xx</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/Cachaça..jpeg" alt=" Cachaça">
+			<h3> Cachaça</h3>
+			<p>Rica em fibras protege do câncer,<br> diabetes,hipertensão .</p>
+			<p>R$ x,xx</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+      
+
+    </div>
+</section>
+
+<section id="alimentos-secos" class="lista-horizontal">
+    <h5>Alimentos Secos</h5>
+    <div class="container">
+        <div class="produto">
+            <img src="./imgs/napoleaofeijão.jpeg" alt="Feijão">
+            <h3>Feijão</h3>
+            <p>R$ x,xx / kg</p>
+            <h3>QUANTIDADE</h3>
+            <div>
+                <input type="number" id="quantidadeFeijao" name="quantidadeFeijao" min="1" value="1"
+                    style="width: 100px;">
+                <br>
+                <button onclick="adicionarAoCarrinhoFeijao()" style="font-size: 10px;">Adicionar
+                    ao Carrinho</button>
+            </div>
+        </div>
+
+		<div class="produto">
+			<img src="./imgs/arroz.jpeg" alt="Arroz">
+			<h3>Arroz</h3>
+			<p>Rica em fibras protege do câncer,<br> diabetes,hipertensão .</p>
+			<p>R$ x,xx/ kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/Farinhadetrigo.jpeg" alt="Farinha de Trigo">
+			<h3>Farinha de Trigo</h3>
+			<p>Rica em fibras protege do câncer,<br> diabetes,hipertensão .</p>
+			<p>R$ x,xx/ kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/Farinhademandioca.jpeg" alt="Farinha de Mandioca">
+			<h3>Farinha de Mandioca</h3>
+			<p>Rica em fibras protege do câncer,<br> diabetes,hipertensão .</p>
+			<p>R$ x,xx/ kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/cafe.jpeg" alt="Café">
+			<h3>Café</h3>
+			<p>Rica em fibras protege do câncer,<br> diabetes,hipertensão .</p>
+			<p>R$ x,xx/ kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/Açucar.jpeg" alt="Açucar">
+			<h3>Açucar</h3>
+			<p>Rica em fibras protege do câncer,<br> diabetes,hipertensão .</p>
+			<p>R$ x,xx/ kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/leiteempo.jpeg" alt="leiteempo">
+			<h3>Leite em Pó</h3>
+			<p>Rica em fibras protege do câncer,<br> diabetes,hipertensão .</p>
+			<p>R$ x,xx/ kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/Cenoura.jpeg" alt="Massa">
+			<h3>Massa</h3>
+			<p>Rica em fibras protege do câncer,<br> diabetes,hipertensão .</p>
+			<p>R$ x,xx/ kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+
+		<div class="produto">
+			<img src="./imgs/Cenoura.jpeg" alt="Maisena">
+			<h3>Maisena</h3>
+			<p>Rica em fibras protege do câncer,<br> diabetes,hipertensão .</p>
+			<p>R$ x,xx/ kg</p>
+			<h3>QUANTIDADE</h3>
+			<div>
+				<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+					style="width: 100px;">
+				<br>
+				<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+					ao Carrinho</button>
+			</div>
+
+		</div>
+    </div>
+</section>
+
+
+	<section id="padaria" class="lista-horizontal">
+		<h5>Padaria</h5>
+		<div class="container">
+			<div class="produto">
+				<img src="./imgs/pãofrances.jpeg" alt="Pão Francês">
+				<h3>Pão Francês</h3>
+				<p>R$ xx,xx / unidade</p>
+				<h3>QUANTIDADE</h3>
+				<div>
+					<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+						style="width: 100px;">
+					<br>
+					<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+						ao Carrinho</button>
+				</div>
+
+			</div>
+
+			<div class="produto">
+				<img src="./imgs/pãointegral.jpeg" alt="Pão Integral">
+				<h3>Pão Integral</h3>
+				<p>R$ x,xx / unidade</p>
+				<h3>QUANTIDADE</h3>
+				<div>
+					<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+						style="width: 100px;">
+					<br>
+					<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+						ao Carrinho</button>
+				</div>
+
+			</div>
+
+			<div class="produto">
+				<img src="broa_milho.jpg" alt="Broa de Milho">
+				<h3>Broa de Milho</h3>
+				<p>R$ 1,20 / unidade</p>
+				<h3>QUANTIDADE</h3>
+				<div>
+					<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+						style="width: 100px;">
+					<br>
+					<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+						ao Carrinho</button>
+				</div>
+
+			</div>
+
+			<div class="produto">
+				<img src="broa_milho.jpg" alt="Broa de Milho">
+				<h3>Broa de Milho</h3>
+				<p>R$ 1,20 / unidade</p>
+				<h3>QUANTIDADE</h3>
+				<div>
+					<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+						style="width: 100px;">
+					<br>
+					<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+						ao Carrinho</button>
+				</div>
+
+			</div>
+
+			<div class="produto">
+				<img src="broa_milho.jpg" alt="Broa de Milho">
+				<h3>Broa de Milho</h3>
+				<p>R$ 1,20 / unidade</p>
+				<h3>QUANTIDADE</h3>
+				<div>
+					<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+						style="width: 100px;">
+					<br>
+					<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+						ao Carrinho</button>
+				</div>
+
+			</div>
+
+			<div class="produto">
+				<img src="broa_milho.jpg" alt="Broa de Milho">
+				<h3>Broa de Milho</h3>
+				<p>R$ 1,20 / unidade</p>
+				<h3>QUANTIDADE</h3>
+				<div>
+					<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+						style="width: 100px;">
+					<br>
+					<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+						ao Carrinho</button>
+				</div>
+
+			</div>
+
+			<div class="produto">
+				<img src="broa_milho.jpg" alt="Broa de Milho">
+				<h3>Broa de Milho</h3>
+				<p>R$ 1,20 / unidade</p>
+				<h3>QUANTIDADE</h3>
+				<div>
+					<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+						style="width: 100px;">
+					<br>
+					<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+						ao Carrinho</button>
+				</div>
+
+			</div>
+
+			<div class="produto">
+				<img src="broa_milho.jpg" alt="Broa de Milho">
+				<h3>Broa de Milho</h3>
+				<p>R$ 1,20 / unidade</p>
+				<h3>QUANTIDADE</h3>
+				<div>
+					<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+						style="width: 100px;">
+					<br>
+					<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+						ao Carrinho</button>
+				</div>
+
+			</div>
+
+			<div class="produto">
+				<img src="broa_milho.jpg" alt="Broa de Milho">
+				<h3>Broa de Milho</h3>
+				<p>R$ 1,20 / unidade</p>
+				<h3>QUANTIDADE</h3>
+				<div>
+					<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+						style="width: 100px;">
+					<br>
+					<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+						ao Carrinho</button>
+				</div>
+
+			</div>
+		</section>
+
+		<section id="limpeza" class="lista-horizontal">
+			<h5>Produtos de Limpeza</h5>
+			<div class="container">
+
+				<div class="produto">
+					<img src="produto_limpeza1.jpg" alt="Detergente">
+					<h3>Detergente</h3>
+					<p>R$ 2,50</p>
+					<h3>QUANTIDADE</h3>
+					<div>
+						<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+							style="width: 100px;">
+						<br>
+						<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+							ao Carrinho</button>
+					</div>
+				</div>
+
+				<div class="produto">
+					<img src="produto_limpeza2.jpg" alt="Desinfetante">
+					<h3>Desinfetante</h3>
+					<p>R$ 3,00</p>
+					<h3>QUANTIDADE</h3>
+					<div>
+						<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+							style="width: 100px;">
+						<br>
+						<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+							ao Carrinho</button>
+					</div>
+				</div>
+
+				<div class="produto">
+					<img src="produto_limpeza3.jpg" alt="Sabão em pó">
+					<h3>Sabão em Pó</h3>
+					<p>R$ 4,00</p>
+					<h3>QUANTIDADE</h3>
+					<div>
+						<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+							style="width: 100px;">
+						<br>
+						<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+							ao Carrinho</button>
+					</div>
+				</div>
+
+				<div class="produto">
+					<img src="produto_limpeza3.jpg" alt="Sabão em pó">
+					<h3>Sabão em Pó</h3>
+					<p>R$ 4,00</p>
+					<h3>QUANTIDADE</h3>
+					<div>
+						<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+							style="width: 100px;">
+						<br>
+						<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+							ao Carrinho</button>
+					</div>
+
+				</div>
+
+				<div class="produto">
+					<img src="produto_limpeza3.jpg" alt="Sabão em pó">
+					<h3>Sabão em Pó</h3>
+					<p>R$ 4,00</p>
+					<h3>QUANTIDADE</h3>
+					<div>
+						<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+							style="width: 100px;">
+						<br>
+						<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+							ao Carrinho</button>
+					</div>
+
+				</div>
+
+				<div class="produto">
+					<img src="produto_limpeza3.jpg" alt="Sabão em pó">
+					<h3>Sabão em Pó</h3>
+					<p>R$ 4,00</p>
+					<h3>QUANTIDADE</h3>
+					<div>
+						<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+							style="width: 100px;">
+						<br>
+						<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+							ao Carrinho</button>
+					</div>
+
+				</div>
+
+				<div class="produto">
+					<img src="produto_limpeza3.jpg" alt="Sabão em pó">
+					<h3>Sabão em Pó</h3>
+					<p>R$ 4,00</p>
+					<h3>QUANTIDADE</h3>
+					<div>
+						<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+							style="width: 100px;">
+						<br>
+						<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+							ao Carrinho</button>
+					</div>
+
+				</div>
+
+				<div class="produto">
+					<img src="produto_limpeza3.jpg" alt="Sabão em pó">
+					<h3>Sabão em Pó</h3>
+					<p>R$ 4,00</p>
+					<h3>QUANTIDADE</h3>
+					<div>
+						<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+							style="width: 100px;">
+						<br>
+						<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+							ao Carrinho</button>
+					</div>
+
+				</div>
+
+				<div class="produto">
+					<img src="produto_limpeza3.jpg" alt="Sabão em pó">
+					<h3>Sabão em Pó</h3>
+					<p>R$ 4,00</p>
+					<h3>QUANTIDADE</h3>
+					<div>
+						<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+							style="width: 100px;">
+						<br>
+						<button onclick="adicionarAoCarrinho()" style="font-size: 10px;">Adicionar
+							ao Carrinho</button>
+					</div>
+
+				</div>
+			</section>
+
+			<section id="pet" class="lista-horizontal">
+				<h5>Produtos para seu Pet</h5>
+				<div class="container">
+					<div class="produto">
+						<img src="racao.jpg" alt="Ração">
+						<h3>Ração</h3>
+						<p>R$ 10,00</p>
+						<h3>QUANTIDADE</h3>
+						<div>
+							<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+								style="width: 100px;">
+							<br>
+							<button onclick="adicionarAoCarrinho()"
+								style="font-size: 10px;">Adicionar ao Carrinho</button>
+						</div>
+
+					</div>
+
+					<div class="produto">
+						<img src="brinquedo.jpg" alt="Brinquedo">
+						<h3>Brinquedo</h3>
+						<p>R$ 5,00</p>
+						<h3>QUANTIDADE</h3>
+						<div>
+							<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+								style="width: 100px;">
+							<br>
+							<button onclick="adicionarAoCarrinho()"
+								style="font-size: 10px;">Adicionar ao Carrinho</button>
+						</div>
+
+					</div>
+
+					<div class="produto">
+						<img src="coleira.jpg" alt="Coleira">
+						<h3>Coleira</h3>
+						<p>R$ 8,00</p>
+						<h3>QUANTIDADE</h3>
+						<div>
+							<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+								style="width: 100px;">
+							<br>
+							<button onclick="adicionarAoCarrinho()"
+								style="font-size: 10px;">Adicionar ao Carrinho</button>
+						</div>
+
+					</div>
+
+					<div class="produto">
+						<img src="coleira.jpg" alt="Coleira">
+						<h3>Coleira</h3>
+						<p>R$ 8,00</p>
+						<h3>QUANTIDADE</h3>
+						<div>
+							<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+								style="width: 100px;">
+							<br>
+							<button onclick="adicionarAoCarrinho()"
+								style="font-size: 10px;">Adicionar ao Carrinho</button>
+						</div>
+
+					</div>
+
+					<div class="produto">
+						<img src="coleira.jpg" alt="Coleira">
+						<h3>Coleira</h3>
+						<p>R$ 8,00</p>
+						<h3>QUANTIDADE</h3>
+						<div>
+							<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+								style="width: 100px;">
+							<br>
+							<button onclick="adicionarAoCarrinho()"
+								style="font-size: 10px;">Adicionar ao Carrinho</button>
+						</div>
+
+					</div>
+
+					<div class="produto">
+						<img src="coleira.jpg" alt="Coleira">
+						<h3>Coleira</h3>
+						<p>R$ 8,00</p>
+						<h3>QUANTIDADE</h3>
+						<div>
+							<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+								style="width: 100px;">
+							<br>
+							<button onclick="adicionarAoCarrinho()"
+								style="font-size: 10px;">Adicionar ao Carrinho</button>
+						</div>
+
+					</div>
+
+					<div class="produto">
+						<img src="coleira.jpg" alt="Coleira">
+						<h3>Coleira</h3>
+						<p>R$ 8,00</p>
+						<h3>QUANTIDADE</h3>
+						<div>
+							<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+								style="width: 100px;">
+							<br>
+							<button onclick="adicionarAoCarrinho()"
+								style="font-size: 10px;">Adicionar ao Carrinho</button>
+						</div>
+
+					</div>
+
+					<div class="produto">
+						<img src="coleira.jpg" alt="Coleira">
+						<h3>Coleira</h3>
+						<p>R$ 8,00</p>
+						<h3>QUANTIDADE</h3>
+						<div>
+							<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+								style="width: 100px;">
+							<br>
+							<button onclick="adicionarAoCarrinho()"
+								style="font-size: 10px;">Adicionar ao Carrinho</button>
+						</div>
+
+					</div>
+
+					<div class="produto">
+						<img src="coleira.jpg" alt="Coleira">
+						<h3>Coleira</h3>
+						<p>R$ 8,00</p>
+						<h3>QUANTIDADE</h3>
+						<div>
+							<input type="number" id="quantidade" name="quantidade" min="1" value="1"
+								style="width: 100px;">
+							<br>
+							<button onclick="adicionarAoCarrinho()"
+								style="font-size: 10px;">Adicionar ao Carrinho</button>
+						</div>
+
+					</div>
+				</section>
+
+				<footer>
+					<p>&copy; 2024 Super Top - Seu Supermercado</p>
+					<div class="obs">
+					<p>Por favor, note que as imagens dos produtos apresentados em nosso site são apenas ilustrativas e podem não refletir exatamente o produto real. Visando melhor atender às necessidades de nossos clientes, não realizamos vendas por atacado. É importante ressaltar que alguns produtos podem representar riscos à saúde e, portanto, sua venda é restrita a determinados públicos. Os preços, ofertas e condições exclusivas apresentadas são válidos apenas para compras realizadas pela Internet e são válidos somente durante o dia de hoje, estando sujeitos a alterações sem aviso prévio. Conforme a Lei n.° 8069/90, art. 81, inciso II (ECA), informamos que a venda de bebidas alcoólicas é proibida para menores de 18 anos. Além disso, ressaltamos que a venda está sujeita à disponibilidade de estoque no momento da entrega. Caso algum produto esteja indisponível, não será incluído no pedido e o valor correspondente não será cobrado</p>
+				</div>
+					<div class="desenvolvido">
+						<h5>Desenvolvido por Sandra Schmittel</h5>
+						<h6>Front End Designer</h6>
+					</div>
+				</footer>
+			</body>
+
+			<script src="script.js"></script>
+		</body>
+	</html>

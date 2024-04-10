@@ -1,0 +1,367 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body h1 {
+    font-size: 210px;
+    margin-left: 190px;
+    margin-top: 50px;
+    color: rgb(54, 54, 168);
+    box-shadow: 5px 5px 10px rgba(54, 54, 168, 0.5);
+    width: 1100px;
+
+}
+
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    
+}
+
+.navbar img {
+    height: 20px;
+   
+}  
+
+
+
+.logo {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 250px;
+    height: 40px;
+}
+
+
+
+.search-form {
+    display: flex;
+    margin-left: 550px;
+    
+}
+
+.search-form input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.search-form button {
+    padding: 8px;
+    border: none;
+    background-color: #555;
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    margin-top: 10px;
+  
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-left: 950px;
+    margin-top: -38px;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+   
+}
+
+.nav-links li a:hover {
+    color: rgba(0, 0, 248, 0.5);;
+    
+}
+
+
+
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 221px;
+    border-radius: 20px;
+    width: 1400px;
+    margin-top: -20px;
+    margin-left: -20px;
+
+}
+
+.menu-principal ul {
+    color: white;
+    border-radius: 19px;
+}
+
+.menu-carrinho ul {
+    /* background-color:#333;  */
+    color: white;
+    font-size: 39px;
+    width: 500px;
+    margin-left: 450px;
+}
+
+
+
+nav li a {
+    color: rgba(0, 0, 248, 0.5);
+    border-radius: 9px;
+    height: 20px;
+    text-align: center;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(54, 54, 168, 0.5);
+
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    /* background-color:  rgb(54, 54, 168); */
+    box-shadow: 5px 5px 10px rgba(54, 54, 168, 0.5);
+
+
+}
+
+nav ul a {
+    color:  rgb(54, 54, 168);
+}
+
+
+section {
+    padding: 20px;
+
+}
+
+section h5 {
+    font-size: 32px;
+    background-color: rgb(54, 54, 168);
+    color: #fff;
+    width: 500px;
+    border-radius: 9px;
+
+}
+
+
+
+#destaques h2 {
+    background-color: rgb(54, 54, 168);
+    text-align: center;
+    font-size: 90px;
+    color: #fff
+}
+
+
+#destaques img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.adicionaraocarrinho button {
+    width: 20px;
+}
+
+
+
+.ESGOTADO {
+    font-size: 26px;
+    color: red;
+}
+
+
+
+
+.produto {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.lista-horizontal .container {
+  
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    white-space: nowrap;
+    padding-bottom: 20px;
+    }
+    
+
+
+.lista-horizontal .produto {
+    flex: 0 0 auto;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.lista-horizontal .produto img {
+    width: 80%;
+    height: auto;
+    overflow-x: auto;
+}
+
+.container-horizontal-scroll {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+
+
+.container {
+    display: inline-block; 
+    white-space: nowrap; 
+}
+
+#ProdutosdeHigiene,
+#Gulosemas,
+#Frutas,
+#VerduraseLegumes,
+#Bebidas,
+#AlimentosSecos {
+    max-width: 100%; 
+    overflow-x: auto; 
+    white-space: nowrap; 
+}
+
+
+
+
+.produto {
+    display: inline-block;
+    width: 200px;
+    margin-right: 20px;
+
+}
+
+.produto img {
+    height: 200px;
+}
+
+.alimentos-secos {
+    overflow-x: auto;
+}
+
+
+
+#Promoções h2 {
+    text-align: center;
+    font-size: 90px;
+    background-color: rgb(54, 54, 168);
+    color: #fff;
+  
+
+}
+
+#Promoções img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#ProdutosemPromoção {
+    text-align: center; /* Centraliza o texto */
+}
+#ProdutosemPromoção h2 {
+    color: #fff; /* Define a cor azul */
+    background-color: rgb(54, 54, 168);
+    font-size: 90px;
+}
+
+
+.pet .lista-horizontal {
+    padding-bottom: 20px;
+
+}
+
+.slogan h1 a,
+.slogan h2 a {
+    text-decoration: none;
+    color: rgb(54, 54, 168);
+}
+
+.slogan h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: -50px;
+    margin-left: 145px;
+}
+
+.slogan h2 {
+    font-size: 26px;
+    text-align: justify;
+    width: 900px;
+    margin-left: 320px;
+    margin-top: -450px;
+    color: rgb(54, 54, 168);
+}
+
+#slogan-section {
+    color: rgb(54, 54, 168);
+}
+
+.slogan img {
+    margin-top: 190px;
+    margin-left: -1100px;
+}
+
+/* .footer h6 {
+    text-align:left;
+    font-size: 20px;
+} */
+
+
+.desenvolvido {
+    margin-top: 10px;
+    text-align:center;
+    font-size: 20px;
+}
+
+.desenvolvido h5 {
+    margin-bottom: 5px;
+}
+
+.desenvolvido h6 {
+    margin-top: 0;
+    
+} 
+
+.obs p {
+    text-align:justify;
+    width: 1200px;
+    margin-left: 95px;
+}
